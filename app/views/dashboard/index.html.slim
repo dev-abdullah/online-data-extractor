@@ -1,0 +1,20 @@
+nav.navbar.navbar-light.bg-light
+  a.navbar-brand href="#"
+    = image_tag 'ab.png', class: 'd-inline-block align-top logo-style rounded-circle'
+    span.header-style  Online Data Extractor
+
+.row.mt-5
+  .col-md-2
+  .col-md-8
+    .card
+      h5.card-header Fetch car's details from Yalla Motors
+      .card-body
+        h5.card-title Enter Specified url
+        p.card-text Enter url and hit 'Fetch & Download' button to download related cars record file.
+
+        = form_for :fetch_cars, url: "fetch_cars_details.csv" do |f|
+          .input-group.mb-3
+            = f.text_field :search_path, class: 'form-control', placeholder: 'https://uae.yallamotor.com/new-cars/toyota', required: true
+            .input-group-append
+              = f.submit 'Fetch & Download', class: 'button btn btn-outline-secondary'
+  .col-md-2
