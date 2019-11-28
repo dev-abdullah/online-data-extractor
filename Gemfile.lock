@@ -218,16 +218,17 @@ DEPENDENCIES
   bootsnap (>= 1.4.2)
   byebug
   capybara (>= 2.15)
-  httparty
+  httparty (~> 0.17.1)
   jbuilder (~> 2.7)
   listen (>= 3.0.5, < 3.2)
-  nokogiri
+  nokogiri (~> 1.10, >= 1.10.5)
   pg (>= 0.18, < 2.0)
   puma (~> 4.1)
+  rack
   rails (~> 6.0.1)
   sass-rails (>= 6)
   selenium-webdriver
-  slim-rails
+  slim-rails (~> 3.2)
   spring
   spring-watcher-listen (~> 2.0.0)
   turbolinks (~> 5)
@@ -240,4 +241,4 @@ RUBY VERSION
    ruby 2.6.1p33
 
 BUNDLED WITH
-   2.0.1
+   2.0.2
