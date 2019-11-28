@@ -1,0 +1,15 @@
+current directory: /Users/abdullah007/projects/online-data-extractor/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.4.5/ext/bootsnap
+/Users/abdullah007/.rvm/rubies/ruby-2.6.1/bin/ruby -I /Users/abdullah007/.rvm/rubies/ruby-2.6.1/lib/ruby/site_ruby/2.6.0 -r ./siteconf20191129-39328-slj2z9.rb extconf.rb
+creating Makefile
+
+current directory: /Users/abdullah007/projects/online-data-extractor/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.4.5/ext/bootsnap
+make "DESTDIR=" clean
+
+current directory: /Users/abdullah007/projects/online-data-extractor/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.4.5/ext/bootsnap
+make "DESTDIR="
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/abdullah007/projects/online-data-extractor/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.4.5/ext/bootsnap
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 bootsnap.bundle ./.gem.20191129-39328-ol2cka/bootsnap

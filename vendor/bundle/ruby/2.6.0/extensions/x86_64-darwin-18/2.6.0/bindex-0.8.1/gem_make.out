@@ -1,0 +1,15 @@
+current directory: /Users/abdullah007/projects/online-data-extractor/vendor/bundle/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
+/Users/abdullah007/.rvm/rubies/ruby-2.6.1/bin/ruby -I /Users/abdullah007/.rvm/rubies/ruby-2.6.1/lib/ruby/site_ruby/2.6.0 -r ./siteconf20191129-39328-198s4a2.rb extconf.rb
+creating Makefile
+
+current directory: /Users/abdullah007/projects/online-data-extractor/vendor/bundle/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: /Users/abdullah007/projects/online-data-extractor/vendor/bundle/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR="
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.bundle
+
+current directory: /Users/abdullah007/projects/online-data-extractor/vendor/bundle/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 cruby.bundle ./.gem.20191129-39328-8f5gvp/skiptrace/internal
