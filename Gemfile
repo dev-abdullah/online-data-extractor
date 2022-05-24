@@ -26,7 +26,7 @@ gem 'jbuilder', '~> 2.7'
 # gem 'image_processing', '~> 1.2'
 gem 'slim-rails', '~> 3.2'
 gem 'httparty', '~> 0.17.1'
-gem 'nokogiri', '~> 1.10', '>= 1.10.5'
+gem 'nokogiri', '~> 1.13'
 gem 'rack'
 
 # Reduces boot times through caching; required in config/boot.rb
